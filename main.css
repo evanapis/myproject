@@ -1,0 +1,35 @@
+h1 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 5px solid gray;
+}
+.menu_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 5px solid gray;
+}
+.menu_bar li {
+    float: left;
+    background-color: black;
+    color: white;
+
+}
+.menu_bar a {
+    text-align: center;
+    display: block;
+    padding: 15px 60px;
+    text-decoration: none;
+}
+.menu_bar a:visited {
+    color: white;
+}
+li a:hover { 
+    background-color: rgb(83, 85, 87);
+}
+#darkmode {
+    position: absolute;
+    top: 15px;
+    right: 70px;
+}

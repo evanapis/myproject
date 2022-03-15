@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <input id="darkmode" type="button" value="Dark mode" onclick="
+        var target = document.querySelector('body');
+        if (this.value === 'Dark mode'){
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = 'Light mode';
+    
+        var alist= document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length) {
+        alist[i].style.color = 'gold';
+        i = i + 1;
+        }
+    
+    
+        } else {
+         target.style.backgroundColor = 'white';
+         target.style.color = 'black';
+         this.value = 'Dark mode'    
+        
+        var alist= document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length) {
+        alist[i].style.color = 'silver';
+        i = i + 1;
+        }
+    }
+        "> 
+<h1>CSS</h1>
+<ul class="menu_bar">
+    <li><a href="main.html">HTML</a></li>    
+    <li><a href="CSS.html">CSS</a></li>    
+    <li><a href="Java.html">JavaScript</a></li>
+    <li><a href="python.html">Python</a></li>   
+</ul>
+
+<h2>What is CSS?</h2>
+<ul>
+    <li>CSS stands for Cascading Style Sheets</li>
+    <li>CSS describes how HTML elements are to be displayed on screen,  
+    paper, or in other media</li>
+    <li>CSS saves a lot of work. It can control the layout of 
+    multiple web pages all at once</li>
+    <li>External stylesheets are stored in CSS files</li>
+  </ul>
+<h2>Videos of 생활코딩</h2>
+<h3>생활코딩의 CSS란?</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ok0bBJPtgJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://www.youtube.com/c/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A91/channels">더 찾아보기</a></p> 
+</body>
+</html>
